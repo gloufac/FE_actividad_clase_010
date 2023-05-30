@@ -1,0 +1,120 @@
+body{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    display: contents;
+}
+
+/*HEADER*/
+.contenedor1{
+    position: relative;
+}
+#bardiscount{
+    background-color: #1CD1B0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px 27px;
+    
+}
+h1{
+    font-weight: 400;
+}
+#header{
+    position: fixed;
+    top: 38px;
+    left: 0;
+    background-color: #00669F;
+    width: 100%;
+    padding: 10px 27px;
+    z-index: 99;
+}
+
+/*MAIN*/
+.personajes{
+    position: relative;
+    display: inline-block;
+    top: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+    .personajes .personaje{
+        border-radius: 16px 16px 0px 0px;
+        border: solid 0px black;
+        display: inline-block;
+        width: 300px;
+        height: 529px;
+        background-color: #F3F3F3;
+        margin: 15px;
+    }
+        .personajes .personaje p{
+            background-color: #F3F3F3;
+            font-size: 16px;
+            margin: 10px;
+            line-height: 19px;
+            font-weight: lighter;
+        }
+
+        /*boton ver mas*/
+        .personaje button{
+            background-color: #00669F;
+            color: #F3F3F3;
+            border: 0;
+            padding: 20px;
+            float: right;
+            margin: 10px;
+            font-size: 16px;
+            font-weight: lighter;
+            text-align: center;
+            width: 200px;
+            border-radius: 5px;
+        }
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 70px;
+}
+.image-back{
+    width: 100%;
+    height: 190px;
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px 16px 0px 0px;
+}
+    .image-back.batman{
+        background-image: url("../img/batman_back.svg");   
+    }
+
+    .image-back.harley{
+        background-image: url("../img/harleyquinn_back.svg");
+    }
+
+.like{
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.picture{
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 90px;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: block;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 15px;
+    padding: 15px;
+}
